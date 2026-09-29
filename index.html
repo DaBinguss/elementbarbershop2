@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>מספרת אלמנט | התספורת שלך, הסטייל שלך</title>
+  <meta name="description" content="מספרת אלמנט - חוויית תספורת וטיפוח לגבר ברמה הגבוהה ביותר. יוסי בנאי 44. טלפון: 058-568-1064.">
+  
+  <!-- Favicon -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>✂️</text></svg>">
+
+  <!-- Google Fonts: Heebo & Montserrat -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;500;600;700;800;900&family=Montserrat:wght@400;600;700;800&display=swap" rel="stylesheet">
+  
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+  
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Top Scroll Progress Indicator -->
+  <div class="scroll-progress-bar" id="scrollProgressBar"></div>
+
+  <!-- Navigation Header -->
+  <header class="site-header" id="siteHeader">
+    <div class="container header-container">
+      <a href="#hero" class="brand-group" aria-label="מספרת אלמנט דף הבית">
+        <div class="logo-box">
+          <i data-lucide="scissors" class="logo-default-icon"></i>
+        </div>
+        <div class="brand-text">
+          <span class="brand-name">מספרת אלמנט</span>
+          <span class="brand-tagline">התספורת שלך, הסטייל שלך</span>
+        </div>
+      </a>
+
+      <!-- Desktop Navigation -->
+      <nav class="desktop-nav" aria-label="תפריט ראשי">
+        <ul class="nav-links">
+          <li><a href="#hero" class="nav-link active">בית</a></li>
+          <li><a href="#services" class="nav-link">שירותים ומחירים</a></li>
+          <li><a href="#team" class="nav-link">הצוות שלנו</a></li>
+          <li><a href="#location" class="nav-link">מיקום ושעות</a></li>
+        </ul>
+      </nav>
+
+      <!-- Desktop Header CTA Actions -->
+      <div class="header-cta">
+        <a href="tel:0585681064" class="btn btn-outline btn-sm header-phone-btn" title="חיוג ישיר למספרה">
+          <i data-lucide="phone-call"></i>
+          <span>058-568-1064</span>
+        </a>
+        <a href="https://calmark.co.il/p/5SJRg?p=nb" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm open-booking-btn">
+          <i data-lucide="calendar"></i>
+          <span>לקביעת תורים</span>
+        </a>
+        <button class="mobile-menu-toggle" id="mobileMenuToggle" aria-label="פתח תפריט ניווט">
+          <i data-lucide="menu" id="menuIcon"></i>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile Drawer Nav -->
+    <div class="mobile-nav-drawer" id="mobileDrawer">
+      <ul class="mobile-nav-links">
+        <li><a href="#hero" class="mobile-nav-link">בית</a></li>
+        <li><a href="#services" class="mobile-nav-link">שירותים ומחירים</a></li>
+        <li><a href="#team" class="mobile-nav-link">הצוות שלנו</a></li>
+        <li><a href="#location" class="mobile-nav-link">מיקום ושעות</a></li>
+      </ul>
+      <div class="mobile-drawer-cta">
+        <a href="tel:0585681064" class="btn btn-outline btn-block mb-2">
+          <i data-lucide="phone-call"></i>
+          <span>חיוג ישיר: 058-568-1064</span>
+        </a>
+        <a href="https://calmark.co.il/p/5SJRg?p=nb" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-block open-booking-btn">
+          <i data-lucide="calendar"></i>
+          <span>לקביעת תורים ב-Calmark</span>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main id="mainContent">
+
+    <!-- Hero Section (Alternating: Top Half White, Bottom Half Pure Black) -->
+    <section class="hero-section" id="hero">
+      <div class="hero-background-pattern"></div>
+
+      <!-- Top Half: Crisp White Background -->
+      <div class="hero-top-half-section">
+        <div class="container hero-container">
+          <div class="hero-page-top reveal-on-scroll">
+            
+            <div class="hero-badge hero-text-badge">
+              <span class="hero-tagline-faded">דיוק • איכות • סטייל</span>
+            </div>
+
+            <!-- Luxury Emblem -->
+            <div class="hero-brand-emblem">
+              <div class="emblem-inner">
+                <i data-lucide="crown" class="emblem-icon"></i>
+              </div>
+            </div>
+
+            <div class="hero-brand-highlight">
+              <h1 class="hero-title hero-brand-main-title">מספרת אלמנט</h1>
+              <p class="hero-subtitle">
+                התספורת שלך, הסטייל שלך. חוויית גזירה וגילוח מקצועית באווירה מוקפדת ומינימליסטית.
+              </p>
+            </div>
+
+            <!-- Primary CTAs -->
+            <div class="hero-buttons">
+              <a href="https://calmark.co.il/p/5SJRg?p=nb" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-large open-booking-btn">
+                <i data-lucide="calendar-check"></i>
+                <span>לקביעת תורים</span>
+              </a>
+              <a href="tel:0585681064" class="btn btn-outline btn-large hero-phone-btn" title="חיוג ישיר: 058-568-1064">
+                <i data-lucide="phone-call"></i>
+                <span>058-568-1064</span>
+              </a>
+            </div>
+
+            <!-- Highlights Strip -->
+            <div class="hero-highlights-strip" id="heroHighlights">
+              <div class="highlight-item">
+                <i data-lucide="scissors"></i>
+                <span>עיצוב שיער וזקן מותאם אישית</span>
+              </div>
+              <div class="highlight-divider"></div>
+              <div class="highlight-item">
+                <i data-lucide="map-pin"></i>
+                <span>יוסי בנאי 44</span>
+              </div>
+              <div class="highlight-divider"></div>
+              <div class="highlight-item highlight-item-multiline">
+                <i data-lucide="clock"></i>
+                <div class="highlight-hours-wrap">
+                  <span>ראשון עד חמישי: 8:00-22:00</span>
+                  <span>שישי: 8:00-13:00</span>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      <!-- Bottom Half: Pure Black Background (4 Barbershop Photos with Equal Gaps) -->
+      <div class="hero-bottom-half-section">
+        <div class="container hero-container">
+          <div class="hero-page-bottom reveal-on-scroll">
+            <div class="hero-custom-gallery-grid">
+              
+              <!-- Photo 1 -->
+              <div class="custom-hero-photo-box" onclick="openLightbox('hero-1.png', 'עיצוב שיער וסטיילינג מדויק')">
+                <img src="hero-1.png" alt="עיצוב שיער וסטיילינג מדויק" class="gallery-photo-img" loading="lazy">
+                <div class="photo-overlay">
+                  <div class="photo-overlay-icon"><i data-lucide="zoom-in"></i></div>
+                  <span class="photo-overlay-caption">עיצוב וסטיילינג</span>
+                </div>
+              </div>
+
+              <!-- Photo 2 -->
+              <div class="custom-hero-photo-box" onclick="openLightbox('hero-2.png', 'דירוג Fade מוקפד ונקי')">
+                <img src="hero-2.png" alt="דירוג Fade מוקפד ונקי" class="gallery-photo-img" loading="lazy">
+                <div class="photo-overlay">
+                  <div class="photo-overlay-icon"><i data-lucide="zoom-in"></i></div>
+                  <span class="photo-overlay-caption">דירוג Fade קלאסי</span>
+                </div>
+              </div>
+
+              <!-- Photo 3 -->
+              <div class="custom-hero-photo-box" onclick="openLightbox('hero-3.png', 'פיסול וטיפוח שיער פרימיום')">
+                <img src="hero-3.png" alt="פיסול וטיפוח שיער פרימיום" class="gallery-photo-img" loading="lazy">
+                <div class="photo-overlay">
+                  <div class="photo-overlay-icon"><i data-lucide="zoom-in"></i></div>
+                  <span class="photo-overlay-caption">פיסול וטיפוח שיער</span>
+                </div>
+              </div>
+
+              <!-- Photo 4 -->
+              <div class="custom-hero-photo-box" onclick="openLightbox('hero-4.png', 'עיצוב ופיסול זקן מושלם')">
+                <img src="hero-4.png" alt="עיצוב ופיסול זקן מושלם" class="gallery-photo-img" loading="lazy">
+                <div class="photo-overlay">
+                  <div class="photo-overlay-icon"><i data-lucide="zoom-in"></i></div>
+                  <span class="photo-overlay-caption">עיצוב זקן מקצועי</span>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services & Pricing Section (White Background) -->
+    <section class="section services-section" id="services">
+      <div class="container">
+        
+        <div class="section-header reveal-on-scroll">
+          <span class="section-tag">המחירון שלנו</span>
+          <h2 class="section-title">שירותים ומחירים</h2>
+          <p class="section-description">שירותי תספורת וגילוח ברמה הגבוהה ביותר עם דיוק מקסימלי ותשומת לב לכל פרט</p>
+        </div>
+
+        <!-- Animated Stats Counter Bar -->
+        <div class="stats-counter-bar reveal-on-scroll">
+          <div class="stat-counter-item">
+            <div class="stat-num-wrap">
+              <span class="stat-counter" data-target="100">0</span>
+              <span class="stat-suffix">%</span>
+            </div>
+            <span class="stat-label">דיוק ואיכות מובטחת</span>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat-counter-item">
+            <div class="stat-num-wrap">
+              <span class="stat-prefix">+</span>
+              <span class="stat-counter" data-target="5000">0</span>
+            </div>
+            <span class="stat-label">לקוחות מרוצים</span>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat-counter-item">
+            <div class="stat-num-wrap">
+              <span class="stat-prefix">+</span>
+              <span class="stat-counter" data-target="8">0</span>
+            </div>
+            <span class="stat-label">שנות ניסיון ומומחיות</span>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat-counter-item">
+            <div class="stat-num-wrap">
+              <span class="stat-counter" data-target="5">0</span>
+              <span class="stat-suffix">.0 ★</span>
+            </div>
+            <span class="stat-label">דירוג שירות מושלם</span>
+          </div>
+        </div>
+
+        <!-- Services Grid -->
+        <div class="services-grid" id="servicesGrid">
+          
+          <!-- Service Card 1 -->
+          <div class="service-card reveal-on-scroll">
+            <div class="service-card-top">
+              <div class="service-icon-wrap">
+                <i data-lucide="user"></i>
+              </div>
+            </div>
+            <h3 class="service-name">תספורת לנער</h3>
+            <p class="service-desc">תספורת צעירה וטרנדית, דירוגים מודרניים והתאמה אישית מלאה לפי הסגנון שלך.</p>
+            <div class="service-pricing">
+              <span class="currency">₪</span>
+              <span class="price-val">60</span>
+            </div>
+            <a href="https://calmark.co.il/p/5SJRg?p=nb" target="_blank" rel="noopener noreferrer" class="btn btn-card-book">
+              <span>הזמן תור עכשיו</span>
+              <i data-lucide="arrow-left"></i>
+            </a>
+          </div>
+
+          <!-- Service Card 2 (Featured) -->
+          <div class="service-card featured reveal-on-scroll delay-100">
+            <div class="service-badge-featured">הכי פופולרי</div>
+            <div class="service-card-top">
+              <div class="service-icon-wrap">
+                <i data-lucide="sparkles"></i>
+              </div>
+            </div>
+            <h3 class="service-name">תספורת לגבר</h3>
+            <p class="service-desc">תספורת גברים מוקפדת ברמת פרימיום, שטיפה קלה, חפיפה ועיצוב שיער בחומרי איכות.</p>
+            <div class="service-pricing">
+              <span class="currency">₪</span>
+              <span class="price-val">70</span>
+            </div>
+            <a href="https://calmark.co.il/p/5SJRg?p=nb" target="_blank" rel="noopener noreferrer" class="btn btn-card-book">
+              <span>הזמן תור עכשיו</span>
+              <i data-lucide="arrow-left"></i>
+            </a>
+          </div>
+
+          <!-- Service Card 3 -->
+          <div class="service-card reveal-on-scroll delay-200">
+            <div class="service-card-top">
+              <div class="service-icon-wrap">
+                <i data-lucide="shield-check"></i>
+              </div>
+            </div>
+            <h3 class="service-name">תספורת + זקן</h3>
+            <p class="service-desc">החבילה המושלמת לגבר: תספורת מוקפדת, פיסול וסידור זקן מדויק, קווים חדים וטיפוח.</p>
+            <div class="service-pricing">
+              <span class="currency">₪</span>
+              <span class="price-val">80</span>
+            </div>
+            <a href="https://calmark.co.il/p/5SJRg?p=nb" target="_blank" rel="noopener noreferrer" class="btn btn-card-book">
+              <span>הזמן תור עכשיו</span>
+              <i data-lucide="arrow-left"></i>
+            </a>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Team Section (Pure Black Background) -->
+    <section class="section team-section" id="team">
+      <div class="container">
+        
+        <div class="section-header reveal-on-scroll">
+          <span class="section-tag">הנבחרת של אלמנט</span>
+          <h2 class="section-title">הצוות שלנו</h2>
+          <p class="section-description">
+            ספרים מקצועיים המביאים איתם תשוקה אמיתית לאמנות הגזירה, דיוק ללא פשרות ויחס אישי לכל לקוח.
+          </p>
+        </div>
+
+        <!-- Team Grid -->
+        <div class="team-grid" id="teamGrid">
+          
+          <!-- Team Member 1 -->
+          <div class="team-card reveal-on-scroll">
+            <div class="team-avatar-box">
+              <div class="team-avatar-inner">
+                <i data-lucide="crown" class="team-avatar-icon"></i>
+              </div>
+              <span class="team-experience-tag">8+ שנות ניסיון</span>
+            </div>
+            <div class="team-content">
+              <div class="team-header-info">
+                <h3 class="team-name">אביאל אלמנט</h3>
+                <span class="team-role">מאסטר בארבר ומייסד</span>
+              </div>
+              <p class="team-bio">
+                בעל למעלה מ-8 שנות ניסיון באמנות הגזירה. מומחה בדירוגים מוקפדים, עיצוב זקן קלאסי ויצירת סגנון אישי לכל לקוח.
+              </p>
+              <a href="https://calmark.co.il/p/5SJRg?p=nb" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-sm open-booking-btn">
+                <i data-lucide="calendar"></i>
+                <span>קבע תור לאביאל</span>
+              </a>
+            </div>
+          </div>
+
+          <!-- Team Member 2 -->
+          <div class="team-card reveal-on-scroll delay-100">
+            <div class="team-avatar-box">
+              <div class="team-avatar-inner">
+                <i data-lucide="scissors" class="team-avatar-icon"></i>
+              </div>
+              <span class="team-experience-tag">מומחה Fade</span>
+            </div>
+            <div class="team-content">
+              <div class="team-header-info">
+                <h3 class="team-name">דניאל קובי</h3>
+                <span class="team-role">מומחה דירוגים ו-Fade</span>
+              </div>
+              <p class="team-bio">
+                מומחה בעיצובי שיער מודרניים, טכניקות Fade מתקדמות, קווים חדים והתאמת תספורת מושלמת למבנה הפנים.
+              </p>
+              <a href="https://calmark.co.il/p/5SJRg?p=nb" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-sm open-booking-btn">
+                <i data-lucide="calendar"></i>
+                <span>קבע תור לדניאל</span>
+              </a>
+            </div>
+          </div>
+
+          <!-- Team Member 3 -->
+          <div class="team-card reveal-on-scroll delay-200">
+            <div class="team-avatar-box">
+              <div class="team-avatar-inner">
+                <i data-lucide="sparkles" class="team-avatar-icon"></i>
+              </div>
+              <span class="team-experience-tag">עיצוב זקן פרימיום</span>
+            </div>
+            <div class="team-content">
+              <div class="team-header-info">
+                <h3 class="team-name">יונתן כהן</h3>
+                <span class="team-role">עיצוב זקן וטיפוח פרימיום</span>
+              </div>
+              <p class="team-bio">
+                מתמחה בטיפולי זקן פרימיום, גילוח מסורתי בתער חם וחוויית טיפוח גברית מושלמת, מדויקת ומרגיעה.
+              </p>
+              <a href="https://calmark.co.il/p/5SJRg?p=nb" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-sm open-booking-btn">
+                <i data-lucide="calendar"></i>
+                <span>קבע תור ליונתן</span>
+              </a>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Location & Opening Hours Section (White Background) -->
+    <section class="section location-section" id="location">
+      <div class="container">
+        
+        <div class="section-header reveal-on-scroll">
+          <span class="section-tag">בואו לבקר אותנו</span>
+          <h2 class="section-title">מיקום ושעות פתיחה</h2>
+          <p class="section-description">
+            אנחנו מחכים לכם במיקום נגיש ונוח. מומלץ לתאם תור מראש כדי להבטיח את זמנכם.
+          </p>
+        </div>
+
+        <div class="location-grid">
+          
+          <!-- Details Card -->
+          <div class="location-card reveal-on-scroll">
+            
+            <!-- Address Block -->
+            <div class="info-block">
+              <div class="info-icon">
+                <i data-lucide="map-pin"></i>
+              </div>
+              <div class="info-content">
+                <h4 class="info-title">כתובת המספרה</h4>
+                <p class="info-value address-highlight">יוסי בנאי 44</p>
+                <span class="info-sub">חניה נוחה בסמוך למקום וגישה נגישה</span>
+                
+                <div class="location-action-links">
+                  <a href="https://waze.com/ul?q=יוסי+בנאי+44" target="_blank" rel="noopener noreferrer" class="btn-micro waze-btn">
+                    <i data-lucide="navigation"></i>
+                    <span>ניווט ב-Waze</span>
+                  </a>
+                  <a href="https://maps.google.com/?q=יוסי+בנאי+44" target="_blank" rel="noopener noreferrer" class="btn-micro gmaps-link-btn">
+                    <i data-lucide="map"></i>
+                    <span>גוגל מפות</span>
+                  </a>
+                  <button type="button" class="btn-micro copy-address-btn" onclick="copyAddressText()">
+                    <i data-lucide="copy"></i>
+                    <span id="copyAddressBtnText">העתק כתובת</span>
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <!-- Opening Hours Block -->
+            <div class="info-block">
+              <div class="info-icon">
+                <i data-lucide="clock"></i>
+              </div>
+              <div class="info-content hours-wrapper">
+                <h4 class="info-title">שעות פעילות</h4>
+                
+                <div class="hours-list" id="hoursList">
+                  <div class="hours-row">
+                    <span class="day-label">ראשון עד חמישי:</span>
+                    <span class="day-hours">8:00 – 22:00</span>
+                  </div>
+                  <div class="hours-row">
+                    <span class="day-label">שישי:</span>
+                    <span class="day-hours">8:00 – 13:00</span>
+                  </div>
+                  <div class="hours-row closed">
+                    <span class="day-label">שבת:</span>
+                    <span class="day-hours">סגור</span>
+                  </div>
+                </div>
+
+                <!-- Live Opening Status Badge -->
+                <div class="hours-status-badge" id="openingStatusBadge">
+                  <span class="status-indicator"></span>
+                  <span id="openingStatusText">בודק סטטוס פתיחה...</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Quick Direct Contact -->
+            <div class="info-block contact-quick-block">
+              <div class="info-icon">
+                <i data-lucide="phone-call"></i>
+              </div>
+              <div class="info-content">
+                <h4 class="info-title">חיוג ישיר למספרה</h4>
+                <p class="info-value phone-number-highlight">
+                  <a href="tel:0585681064" title="חייג למספרה">058-568-1064</a>
+                </p>
+                <span class="info-sub">מענה בשעות הפעילות • תורים מתואמים דרך המערכת</span>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- Google Maps Card -->
+          <div class="map-card reveal-on-scroll delay-100">
+            <div class="map-visual google-map-visual">
+              <iframe
+                title="מפת גוגל - מספרת אלמנט, יוסי בנאי 44"
+                class="google-map-iframe"
+                src="https://maps.google.com/maps?q=%D7%99%D7%95%D7%A1%D7%99%20%D7%91%D7%A0%D7%90%D7%99%2044&t=&z=16&ie=UTF8&iwloc=&output=embed"
+                width="100%"
+                height="100%"
+                style="border:0;"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade">
+              </iframe>
+            </div>
+            <div class="map-card-footer">
+              <div class="map-footer-text">
+                <span class="map-city-title">יוסי בנאי 44</span>
+                <span class="map-city-sub">מספרת אלמנט • פתח מסלול הגעה</span>
+              </div>
+              <a href="https://maps.google.com/?q=%D7%99%D7%95%D7%A1%D7%99%20%D7%91%D7%A0%D7%90%D7%99%2044" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm gmaps-btn">
+                <i data-lucide="navigation"></i>
+                <span>פתח בגוגל מפות</span>
+              </a>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Site Footer -->
+  <footer class="site-footer">
+    <div class="container footer-container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <div class="footer-logo">
+            <i data-lucide="scissors"></i>
+          </div>
+          <div class="footer-brand-info">
+            <span class="footer-brand-name">מספרת אלמנט</span>
+            <span class="footer-tagline">התספורת שלך, הסטייל שלך</span>
+          </div>
+        </div>
+
+        <ul class="footer-links">
+          <li><a href="#hero">בית</a></li>
+          <li><a href="#services">שירותים ומחירים</a></li>
+          <li><a href="#team">הצוות שלנו</a></li>
+          <li><a href="#location">מיקום ושעות</a></li>
+          <li><a href="tel:0585681064">058-568-1064</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-bottom">
+        <p class="copyright">
+          © <span id="currentYear"></span> מספרת אלמנט | יוסי בנאי 44 | כל הזכויות שמורות.
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating Action Hub (WhatsApp + Back to Top) -->
+  <div class="floating-action-hub">
+    <a href="https://wa.me/972585681064?text=%D7%94%D7%99%D7%99%2C%20%D7%90%D7%A9%D7%9E%D7%97%20%D7%9C%D7%A4%D7%A8%D7%98%D7%99%D7%9D%20%D7%95%D7%AA%D7%90%D7%95%D7%9D%20%D7%AA%D7%95%D7%A8%20%D7%91%D7%9E%D7%A1%D7%A4%D7%A8%D7%AA%20%D7%90%D7%9C%D7%9E%D7%A0%D7%98" target="_blank" rel="noopener noreferrer" class="floating-btn floating-wa-btn" title="וואטסאפ: 058-568-1064">
+      <i data-lucide="message-circle"></i>
+      <span class="floating-btn-tooltip">וואטסאפ ישיר</span>
+    </a>
+    <button type="button" class="floating-btn floating-top-btn" id="backToTopBtn" title="חזרה לראש העמוד">
+      <i data-lucide="arrow-up"></i>
+      <span class="floating-btn-tooltip">למעלה</span>
+    </button>
+  </div>
+
+  <!-- Image Lightbox Modal for Fullscreen Photo View -->
+  <div class="lightbox-modal" id="imageLightboxModal">
+    <div class="lightbox-backdrop" id="lightboxBackdrop"></div>
+    <div class="lightbox-dialog">
+      <button type="button" class="lightbox-close-btn" id="lightboxCloseBtn" title="סגור תצוגה">
+        <i data-lucide="x"></i>
+      </button>
+      <img src="" alt="תצוגת תמונה מוגדלת" class="lightbox-img" id="lightboxImg">
+      <div class="lightbox-caption" id="lightboxCaption"></div>
+    </div>
+  </div>
+
+  <!-- Toast Notification -->
+  <div class="toast-notification" id="toastNotification">
+    <i data-lucide="check-circle" class="toast-icon"></i>
+    <span class="toast-text" id="toastText">הפעולה בוצעה בהצלחה</span>
+  </div>
+
+  <!-- Scripts -->
+  <script src="app.js"></script>
+</body>
+</html>
